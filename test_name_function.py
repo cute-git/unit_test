@@ -5,3 +5,5 @@ class NamesTestCase(unittest.TestCase):
     def test_first_last_name(self):
         formatted_name = get_formatted_name("zhou","shan")
         self.assertEqual(formatted_name,"Zhou Shan")
+if __name__ == "__main__":
+    unittest.main()
